@@ -161,6 +161,17 @@ body {
   border-bottom:1px solid #06163a;
   padding:10px 0;
 }
+.hidden-text > ul > li {
+  color:#727780;
+}
+img {
+  max-width: 100%;
+}
+.navbar-brand
+#data-logo{
+  width:200px!important;
+  margin-top:40px;
+}
 @media (max-width: 991px) {
   body {
     font-size: 15px;
@@ -209,9 +220,6 @@ a:hover {
   text-decoration: none;
 }
 
-img {
-  max-width: 100%;
-}
 
 b, strong {
   font-weight: 500;
@@ -1625,8 +1633,7 @@ b, strong {
 
 .site-header .navigation .navbar-brand {
   height: auto;
-  width: 120px;
-  margin-top:-20px;
+  margin-top:5px;
 }
 
 .site-header #navbar {
